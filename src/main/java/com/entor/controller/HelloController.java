@@ -12,6 +12,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        return null;
+        return "端口"+port;
     }
 }
